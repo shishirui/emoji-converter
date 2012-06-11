@@ -3,13 +3,11 @@ emoji-converter
 
 convert emojis between ios4 version and ios5 version
 
-INSTALL
--------
+### INSTALL
 1. Copy SREmojoUtil.h and SREmojoUtil.m to your xcode project
 2. Add SREmojoUtil.m into 'Compile Sources' under 'Build Phases' in Xocde.
 
-USAGE
------
+### USAGE
     #import "SREmojoUtil.h"
 
     SREmojoUtil *emojo = [[[SREmojoUtil alloc] init] autorelease];
