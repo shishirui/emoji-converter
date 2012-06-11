@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B123EB01580571B00FAA9CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B123EAF1580571B00FAA9CF /* UIKit.framework */; };
+		0B123EB21580571B00FAA9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B123EB11580571B00FAA9CF /* Foundation.framework */; };
+		0B123EB41580571B00FAA9CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B123EB31580571B00FAA9CF /* CoreGraphics.framework */; };
+		0B123EBA1580571B00FAA9CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B123EB81580571B00FAA9CF /* InfoPlist.strings */; };
+		0B123EBC1580571B00FAA9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EBB1580571B00FAA9CF /* main.m */; };
+		0B123EC01580571B00FAA9CF /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */; };
+		0B123EC31580571B00FAA9CF /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EC21580571B00FAA9CF /* SRViewController.m */; };
+		0B123EC61580571B00FAA9CF /* SRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B123EC41580571B00FAA9CF /* SRViewController.xib */; };
+		0B123F1A15808C5600FAA9CF /* SREmojoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123F1915808C5500FAA9CF /* SREmojoUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B123EAB1580571B00FAA9CF /* emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B123EAF1580571B00FAA9CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B123EB11580571B00FAA9CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B123EB31580571B00FAA9CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B123EB71580571B00FAA9CF /* emoji-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "emoji-Info.plist"; sourceTree = "<group>"; };
+		0B123EB91580571B00FAA9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B123EBB1580571B00FAA9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B123EBD1580571B00FAA9CF /* emoji-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "emoji-Prefix.pch"; sourceTree = "<group>"; };
+		0B123EBE1580571B00FAA9CF /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		0B123EC11580571B00FAA9CF /* SRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRViewController.h; sourceTree = "<group>"; };
+		0B123EC21580571B00FAA9CF /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRViewController.m; sourceTree = "<group>"; };
+		0B123EC51580571B00FAA9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRViewController.xib; sourceTree = "<group>"; };
+		0B123F1815808C5500FAA9CF /* SREmojoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SREmojoUtil.h; sourceTree = "<group>"; };
+		0B123F1915808C5500FAA9CF /* SREmojoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SREmojoUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B123EA81580571B00FAA9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B123EB01580571B00FAA9CF /* UIKit.framework in Frameworks */,
+				0B123EB21580571B00FAA9CF /* Foundation.framework in Frameworks */,
+				0B123EB41580571B00FAA9CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B123EA01580571B00FAA9CF = {
+			isa = PBXGroup;
+			children = (
+				0B123EB51580571B00FAA9CF /* emoji */,
+				0B123EAE1580571B00FAA9CF /* Frameworks */,
+				0B123EAC1580571B00FAA9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B123EAC1580571B00FAA9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B123EAB1580571B00FAA9CF /* emoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B123EAE1580571B00FAA9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B123EAF1580571B00FAA9CF /* UIKit.framework */,
+				0B123EB11580571B00FAA9CF /* Foundation.framework */,
+				0B123EB31580571B00FAA9CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B123EB51580571B00FAA9CF /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				0B123EBE1580571B00FAA9CF /* SRAppDelegate.h */,
+				0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */,
+				0B123EC11580571B00FAA9CF /* SRViewController.h */,
+				0B123EC21580571B00FAA9CF /* SRViewController.m */,
+				0B123EC41580571B00FAA9CF /* SRViewController.xib */,
+				0B123F1815808C5500FAA9CF /* SREmojoUtil.h */,
+				0B123F1915808C5500FAA9CF /* SREmojoUtil.m */,
+				0B123EB61580571B00FAA9CF /* Supporting Files */,
+			);
+			path = emoji;
+			sourceTree = "<group>";
+		};
+		0B123EB61580571B00FAA9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B123EB71580571B00FAA9CF /* emoji-Info.plist */,
+				0B123EB81580571B00FAA9CF /* InfoPlist.strings */,
+				0B123EBB1580571B00FAA9CF /* main.m */,
+				0B123EBD1580571B00FAA9CF /* emoji-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B123EAA1580571B00FAA9CF /* emoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B123EC91580571B00FAA9CF /* Build configuration list for PBXNativeTarget "emoji" */;
+			buildPhases = (
+				0B123EA71580571B00FAA9CF /* Sources */,
+				0B123EA81580571B00FAA9CF /* Frameworks */,
+				0B123EA91580571B00FAA9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emoji;
+			productName = emoji;
+			productReference = 0B123EAB1580571B00FAA9CF /* emoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B123EA21580571B00FAA9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0B123EA51580571B00FAA9CF /* Build configuration list for PBXProject "emoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B123EA01580571B00FAA9CF;
+			productRefGroup = 0B123EAC1580571B00FAA9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B123EAA1580571B00FAA9CF /* emoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B123EA91580571B00FAA9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B123EBA1580571B00FAA9CF /* InfoPlist.strings in Resources */,
+				0B123EC61580571B00FAA9CF /* SRViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B123EA71580571B00FAA9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B123EBC1580571B00FAA9CF /* main.m in Sources */,
+				0B123EC01580571B00FAA9CF /* SRAppDelegate.m in Sources */,
+				0B123EC31580571B00FAA9CF /* SRViewController.m in Sources */,
+				0B123F1A15808C5600FAA9CF /* SREmojoUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B123EB81580571B00FAA9CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B123EB91580571B00FAA9CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B123EC41580571B00FAA9CF /* SRViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B123EC51580571B00FAA9CF /* en */,
+			);
+			name = SRViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B123EC71580571B00FAA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B123EC81580571B00FAA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B123ECA1580571B00FAA9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emoji/emoji-Prefix.pch";
+				INFOPLIST_FILE = "emoji/emoji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B123ECB1580571B00FAA9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emoji/emoji-Prefix.pch";
+				INFOPLIST_FILE = "emoji/emoji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B123EA51580571B00FAA9CF /* Build configuration list for PBXProject "emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B123EC71580571B00FAA9CF /* Debug */,
+				0B123EC81580571B00FAA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B123EC91580571B00FAA9CF /* Build configuration list for PBXNativeTarget "emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B123ECA1580571B00FAA9CF /* Debug */,
+				0B123ECB1580571B00FAA9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B123EA21580571B00FAA9CF /* Project object */;
+}
