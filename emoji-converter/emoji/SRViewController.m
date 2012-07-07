@@ -14,17 +14,12 @@
 {
     [super viewDidLoad];
     
-    SREmojoUtil *emojo = [[[SREmojoUtil alloc] init] autorelease];
+    SREmojiConvertor *emoji = [[[SREmojiConvertor alloc] init] autorelease];
     
     NSString *old = @"\U0001F236";
-    NSString *new = [emojo emojo5To4:old];
+    NSString *new = [emoji emoji5To4:old];
     
     NSLog(@"%@ %@", old, new);
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
 }
 
 @end

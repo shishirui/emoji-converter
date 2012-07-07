@@ -14,8 +14,7 @@
 		0B123EBC1580571B00FAA9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EBB1580571B00FAA9CF /* main.m */; };
 		0B123EC01580571B00FAA9CF /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */; };
 		0B123EC31580571B00FAA9CF /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123EC21580571B00FAA9CF /* SRViewController.m */; };
-		0B123EC61580571B00FAA9CF /* SRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B123EC41580571B00FAA9CF /* SRViewController.xib */; };
-		0B123F1A15808C5600FAA9CF /* SREmojoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123F1915808C5500FAA9CF /* SREmojoUtil.m */; };
+		0B123F1A15808C5600FAA9CF /* SREmojiConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B123F1915808C5500FAA9CF /* SREmojiConvertor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +30,8 @@
 		0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
 		0B123EC11580571B00FAA9CF /* SRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRViewController.h; sourceTree = "<group>"; };
 		0B123EC21580571B00FAA9CF /* SRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRViewController.m; sourceTree = "<group>"; };
-		0B123EC51580571B00FAA9CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRViewController.xib; sourceTree = "<group>"; };
-		0B123F1815808C5500FAA9CF /* SREmojoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SREmojoUtil.h; sourceTree = "<group>"; };
-		0B123F1915808C5500FAA9CF /* SREmojoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SREmojoUtil.m; sourceTree = "<group>"; };
+		0B123F1815808C5500FAA9CF /* SREmojiConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SREmojiConvertor.h; sourceTree = "<group>"; };
+		0B123F1915808C5500FAA9CF /* SREmojiConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SREmojiConvertor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +82,8 @@
 				0B123EBF1580571B00FAA9CF /* SRAppDelegate.m */,
 				0B123EC11580571B00FAA9CF /* SRViewController.h */,
 				0B123EC21580571B00FAA9CF /* SRViewController.m */,
-				0B123EC41580571B00FAA9CF /* SRViewController.xib */,
-				0B123F1815808C5500FAA9CF /* SREmojoUtil.h */,
-				0B123F1915808C5500FAA9CF /* SREmojoUtil.m */,
+				0B123F1815808C5500FAA9CF /* SREmojiConvertor.h */,
+				0B123F1915808C5500FAA9CF /* SREmojiConvertor.m */,
 				0B123EB61580571B00FAA9CF /* Supporting Files */,
 			);
 			path = emoji;
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B123EBA1580571B00FAA9CF /* InfoPlist.strings in Resources */,
-				0B123EC61580571B00FAA9CF /* SRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +165,7 @@
 				0B123EBC1580571B00FAA9CF /* main.m in Sources */,
 				0B123EC01580571B00FAA9CF /* SRAppDelegate.m in Sources */,
 				0B123EC31580571B00FAA9CF /* SRViewController.m in Sources */,
-				0B123F1A15808C5600FAA9CF /* SREmojoUtil.m in Sources */,
+				0B123F1A15808C5600FAA9CF /* SREmojiConvertor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,14 +178,6 @@
 				0B123EB91580571B00FAA9CF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0B123EC41580571B00FAA9CF /* SRViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B123EC51580571B00FAA9CF /* en */,
-			);
-			name = SRViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

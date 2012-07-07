@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SREmojoUtil.h"
+#import "SREmojiConvertor.h"
 
 @interface SRViewController : UIViewController
 
